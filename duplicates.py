@@ -21,7 +21,6 @@ def are_files_duplicates(file_path):
                 about_file.append(file_name)
                 about_file.append(file_size)
                 list_files.append(about_file)
-
     return None
 
 
