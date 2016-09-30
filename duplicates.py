@@ -30,9 +30,6 @@ def createParser():
     parser = argparse.ArgumentParser(usage='%(prog)s [аргументы]',
                                      description="Поиск дубликатов в" \
                                      "папке с помощью %(prog)s")
-    parser._positionals.title = 'Обязательные аргументы'
-    parser._optionals.title = 'Дополнительные аргументы'
-    parser._actions[0].help = 'Показать эту справку и выйти.'
     parser.add_argument("dirpath", help="Путь к папке")
     return parser
 
